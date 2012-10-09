@@ -2,7 +2,7 @@
   "author": "Andrew Dunkman <andrew@dunkman.org>",
   "name": "dynamic-reverse-proxy-client",
   "description": "A client to the dynamic-reverse-proxy, to register an application via REST.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": {
     "url": ""
   },
