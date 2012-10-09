@@ -1,0 +1,18 @@
+{
+  "author": "Andrew Dunkman <andrew@dunkman.org>",
+  "name": "dynamic-reverse-proxy-client",
+  "description": "A client to the dynamic-reverse-proxy, to register an application via REST.",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "main": "index.js",
+  "dependencies": {
+    "winston": "0.6.2"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
