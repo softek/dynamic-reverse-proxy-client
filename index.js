@@ -18,11 +18,6 @@ var winston = require("winston"),
 
 module.exports = function (options) {
    options = merge(defaults, options || {});
-
-   if (!(options.application && options.application.path && options.application.port)) {
-      return options.logger.error("Failed to register with reverse proxy: path and port are required configuration.");
-   }
-
    return new DynamicProxyClient(options);
 };
 
