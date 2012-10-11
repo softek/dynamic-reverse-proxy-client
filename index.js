@@ -12,7 +12,8 @@ var winston = require("winston"),
          timeout: 5000
        },
        application: {},
-       logger: winston
+       logger: winston,
+       https: false
     };
 
 module.exports = function (options) {
