@@ -16,9 +16,17 @@ var proxy = {
 };
 
 var application = {
-   path: "/test",
+   prefix: "/test",
    port: 4321
 };
 
-reverseProxyClient({ application: application, proxy: proxy });
+var client = reverseProxyClient({ application: application, proxy: proxy });
+
+client.on("error", function (reason, willRetry) {
+   console.log(reason, (willRetry ? "This request will be retried." : "This request will NOT be retried."));
+});
+
+client.on("success", function () {
+   console.log("Registered.");
+});
 ```

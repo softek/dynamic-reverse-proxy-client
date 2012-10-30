@@ -1,5 +1,4 @@
-var winston = require("winston"),
-    DynamicProxyClient = require("./lib/dynamicProxyClient"),
+var DynamicProxyClient = require("./lib/dynamicProxyClient"),
     defaults = {
        proxy: {
           host: "localhost",
@@ -12,7 +11,6 @@ var winston = require("winston"),
          timeout: 5000
        },
        application: {},
-       logger: winston,
        https: false
     };
 
