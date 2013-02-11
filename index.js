@@ -3,7 +3,7 @@ var DynamicProxyClient = require("./lib/dynamicProxyClient"),
        proxy: {
           host: "localhost",
           port: "80",
-          path: "/register",
+          path: "/routes",
           method: "POST"
        },
        retry: {

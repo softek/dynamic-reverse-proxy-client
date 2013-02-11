@@ -11,7 +11,7 @@ var reverseProxyClient = require("dynamic-reverse-proxy-client");
 var proxy = {
    host: "localhost",
    port: "80",
-   path: "/register",
+   path: "/routes",
    method: "POST"
 };
 
