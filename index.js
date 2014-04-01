@@ -21,6 +21,7 @@ module.exports = function (options) {
 
 var merge = function (base, addition) {
    var result = {};
+   var key;
    for (key in base || {}) { result[key] = base[key]; }
    for (key in addition || {}) { result[key] = addition[key]; }
    return result;
