@@ -2,9 +2,9 @@
   "author": "Andrew Dunkman <andrew@dunkman.org>",
   "name": "dynamic-reverse-proxy-client",
   "description": "A client to the dynamic-reverse-proxy, to register an application via REST.",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "repository": {
-    "url": ""
+    "url": "https://github.com/softek/dynamic-reverse-proxy-client"
   },
   "main": "index.js",
   "dependencies": {
